@@ -57,10 +57,11 @@
 <br>
 
 * **What do you want to build as a data product/solution?** : 
-    - Recommendation system for music/artist related content based on user preference
-    - End to end data pipeline (automated) 
-    - Dashboard/app to get user input and filter music  based on input
-    - 
+    - `Recommendation system for music/artist related content based on user preference.`
+    - `End to end data pipeline (automated) to perform analysis of our data. `
+    - `Dashboard/app to get user input and filter music  based on input.`
+    - `Build ML algorithms to predict genres or next trends in music.`
+    - `Method to curate a cohesive playlist(s) for listeners better than what spotify currently does (especially adventorous listeners with diverse & changing tastes :D).`
 
 <br>
 
@@ -85,6 +86,8 @@
     - Get tracks audio features API : [spotify for developers](https://developer.spotify.com/documentation/web-api/reference/get-audio-features)
 
     - Music cues-emotions response data from paper : [S1 database messy](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0241196/1/pone.0241196.s005.htm?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20230816%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230816T080833Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=87fa8ddb2e69e89492c27729a9e858bad6a9d3287c60a86b077230a3ae54970257b8f9025c5af9aa9ac8c8acd5b4ca89be9b1ab89ff791a586f01b52cb50461d06ebd2aa5788398b18d45d1e4da579eff7379cb3aa94c05d2b0c5dc0d445f7d7647deb73c9b0aaa70897b642888518faae52fb3422a9c57c69b1c943f8e3ff2dd34b55bcf5b7aa3d641c525dbf32c476b2ca8fe53731d4b1ba463b7c6b21bfee64ceb83a0e3af9c280d6394a6dc12132225babf57b0ab63f293b4d0ecca4c613b17d6eb73f26b6f0b799112e22cf9704799011a608c73e41112701650f04f3259dce0f8f4757c3bcc2331d24902914d84ce90335f04d2bcbd1ba59b60ce36982)
+
+    - Spotify API tutorial : [web-api tutorial for devs](https://developer.spotify.com/web-api/tutorial/)
 
     - 
 
