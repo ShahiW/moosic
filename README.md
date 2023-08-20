@@ -5,12 +5,13 @@
   <img src= 'https://media.giphy.com/media/xTk9ZwzuWiyJ8n5Vzq/giphy.gif'>
 </div>
 
+
 <br>
 
 
 
 
-Install environment:
+__Install environment:__
 
 ```bash
 python -m venv .venv 
