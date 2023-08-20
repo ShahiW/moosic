@@ -89,7 +89,7 @@
 
     - Spotify API tutorial : [web-api tutorial for devs](https://developer.spotify.com/web-api/tutorial/)
 
-    - 
+    - [How to scrape Wikipedia Articles with Python](https://www.freecodecamp.org/news/scraping-wikipedia-articles-with-python/)
 
 
 <br>
