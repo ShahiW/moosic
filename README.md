@@ -2,10 +2,12 @@
 
 
 <div id="header" align="center">
-  <img src= 'https://giphy.com/embed/xTk9ZwzuWiyJ8n5Vzq" width="480' width=400>
+  <img src= 'https://media.giphy.com/media/xTk9ZwzuWiyJ8n5Vzq/giphy.gif width="480'>
 </div>
 
 <br>
+
+
 
 
 Install environment:
