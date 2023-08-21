@@ -11,6 +11,13 @@ __Kaggle Challenges:__
 
 * [Spotify Tracks Dataset](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset)
 
+* [278k Emotion Labeled Spotify Songs](https://www.kaggle.com/datasets/abdullahorzan/moodify-dataset)
+
+* [Spotify User Behaviour Dataset](https://www.kaggle.com/datasets/meeraajayakumar/spotify-user-behavior-dataset)
+
+* [Spotify Mood Identifier Dataset (?)(X)](https://www.kaggle.com/datasets/musicblogger/spotify-music-data-to-identify-the-moods)
+
+
 <br>
 
 __Aircrowd Challenge:__

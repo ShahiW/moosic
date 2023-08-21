@@ -1,6 +1,13 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,macos,visualstudiocode,venv
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,macos,visualstudiocode,venv
 
+
+
+# Data files
+data/
+
+
+
 ### macOS ###
 # General
 .DS_Store
@@ -240,4 +247,17 @@ pip-selfcheck.json
 .data
 
 # End of https://www.toptal.com/developers/gitignore/api/python,macos,visualstudiocode,venv
+
+
+
+
+
+
+
+
+
+
+
+
+
 
