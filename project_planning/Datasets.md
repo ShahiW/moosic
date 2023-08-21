@@ -16,6 +16,8 @@ __Kaggle Challenges:__
 * [Spotify User Behaviour Dataset](https://www.kaggle.com/datasets/meeraajayakumar/spotify-user-behavior-dataset)
 
 * [Spotify Mood Identifier Dataset (?)(X)](https://www.kaggle.com/datasets/musicblogger/spotify-music-data-to-identify-the-moods)
+  
+* [10,000 MTV's Top Music Artists](https://gist.github.com/mbejda/9912f7a366c62c1f296c)
 
 
 <br>
