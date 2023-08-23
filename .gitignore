@@ -7,6 +7,9 @@
 data/
 
 
+# python stuff
+.python-version
+
 
 ### macOS ###
 # General
