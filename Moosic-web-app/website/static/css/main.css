@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #fff4d5;
+}
+
+.navbar {
+    background:#2b2960;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #f08144;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('../images/slides-background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #2b2960;
+}
+.description p {
+	color: #f08144;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.description button {
+    border:1px solid #fff4d5;
+    background:#fff4d5;
+    border-radius: 0;
+    color:#2b2960;
+}
+.description button:hover {
+	border:1px solid #f08144;
+    background:#f08144;
+    color:#2b2960;
+}
+
+
+
