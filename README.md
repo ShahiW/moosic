@@ -26,4 +26,4 @@ pip install --upgrade pip
 pip install -r requirements.txt 
 ```
 
-Presentation Slides: https://docs.google.com/presentation/d/1Ka-l_OXa4FF1w02ZJ6dam3xc3z0_auSv6qDpuckh5uY/edit#slide=id.g27e8c9103c0_1_31
+[Presentation Slides](https://docs.google.com/presentation/d/1Ka-l_OXa4FF1w02ZJ6dam3xc3z0_auSv6qDpuckh5uY/edit?usp=sharing)
