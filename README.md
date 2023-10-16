@@ -12,8 +12,9 @@ The problem with music recommendations at present is that the recommended tracks
 <br>
 
 Curious about the final product? Click here: [MOOSIC](https://moosic.winderling.net)
+
 Want to take a look at our cool Slides Presentation? Click here: [Capstone Endpresentation](https://docs.google.com/presentation/d/1Ka-l_OXa4FF1w02ZJ6dam3xc3z0_auSv6qDpuckh5uY/edit?usp=sharing)
-<br>
+
 
 <div id="header" align="center">
   <img src= 'https://media.giphy.com/media/xTk9ZwzuWiyJ8n5Vzq/giphy.gif'>
