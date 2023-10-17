@@ -1,0 +1,278 @@
+/* GENERAL STYLING */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    background-color: rgb(151, 142, 200);
+    background-image: url('../images/background-waves.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.05em;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+/* STYLING BASE.HTML */
+
+.footer-box {
+    display:flex;
+    flex: 0 1 50%;
+    flex-direction: row;
+    align-items: end;
+}
+
+.navbar {
+    background: #DFB2F440;
+    /*last two numbers make it transparent*/
+    /*opacity: .75;*/
+}
+
+.navbar-item {
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+}
+
+section > a {
+    text-align: right;
+}
+
+.navbar-link {
+    color: #363232;
+    cursor: pointer;
+    margin-right: 0.5em !important;
+    margin-left: 0.5em !important;
+    font-size: x-large;
+    letter-spacing: 0.05em;
+}
+
+.navbar-link:hover {
+    color: rgb(212, 183, 205);
+
+}
+
+a:link, 
+a:visited,
+a:hover,
+a:active { 
+    text-decoration: none; 
+}
+
+
+.footer {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: right;
+    padding: 10px;
+}
+
+.footer-link {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.footer-link:hover {
+    color: rgba(212, 183, 205, 0.3);
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+/* STYLING INDEX.HTML */
+
+.main-index-content {
+    min-height: 90vh;
+    display: flex;
+    flex: 0 1 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    min-height: auto;
+    max-height: 50vh;
+    margin: 30px 0px 30px 0px;
+}
+
+.slogan {
+    color: #3e3838;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-size: 25px;
+}
+
+.try-me {
+    position: inherit;
+    padding-top: 25px;
+}
+
+button {
+    background-color: rgba(88, 15, 190, 0.6); 
+    border: .5px solid rgba(88, 15, 190, 0.6);
+    border-radius: 50px;
+    color: #fff;
+    padding: 8px;
+    box-shadow: 0 0 30px 0 rgba(69, 89, 234, 0.5),
+                    0 0 30px 0 rgba(88, 15, 190, 0.5),
+                    0 0 10px 0 rgba(88, 15, 190, 0.5) inset;
+
+    font-size: 30px;
+    letter-spacing: 0.05em;
+
+    padding: 3px 50px 3px 50px;
+}
+
+button:hover {
+    background-color: rgba(175, 15, 190, 0.6); 
+    border: .5px solid rgba(175, 15, 190, 0.6);
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    box-shadow: 0 0 30px 0 rgba(154, 69, 234, 0.5),
+                    0 0 30px 0 rgba(129, 11, 139, 0.4),
+                    0 0 10px 0 rgba(129, 11, 139, 0.4) inset;
+
+    font-size: 30px;
+    letter-spacing: 0.05em;
+
+    padding: 3px 50px 3px 50px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+/* STYLING CHOOSE-GENRE-MOOD.HTML */
+
+.main-genre-mood-content {
+    min-height: 81vh;
+    display: flex;
+    flex: 0 1 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.prompt-choose-genre-mood {
+    color: rgb(54, 50, 50);
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    margin: 0;
+}
+
+.wrapper-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.genre-box {
+    width: 50%;
+}
+
+.mood-box {
+    width: 50%;
+}
+
+.result-btn {
+    text-align: center;
+}
+
+
+/*Text in bubbles: Is text for genre- and mood-bubbles*/
+.mood-text {
+    fill: rgb(54, 50, 50);
+    font-size: xx-large;
+    text-align: center;
+    padding: 5px;
+}
+
+/*Carousel-Arrows*/
+.carousel-control-next,
+.carousel-control-prev  {
+    display: center;
+    /* Invert default white colour to black*/
+    filter: invert(100%);
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+/* STYLING RESULT.HTML */
+.main-result-content {
+    min-height: 90vh;
+    display: flex;
+    flex: 0 1 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.results {
+    min-height: 71vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choose-track-prompt {
+    color: rgb(54, 50, 50);
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    margin: 0px 0px 100px 0px;
+}
+
+.result-bubbles {
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+/* STYLING ABOUT-THE-TEAM.HTML */
+.main-content-project {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-content-project > h1 {
+    margin: 80px 0px 45px 0px;
+    line-height: 1.6;
+    word-spacing: 0.1em;
+    letter-spacing: 0.05em;
+    color: rgb(251, 250, 245);
+}
+
+.intro,
+.project-description,
+.team {
+    margin: 25px 0px 15px 0px;
+    padding: 0px 150px 0px 150px;
+    font-size: 2.5vh;
+    font-weight: bold;
+    line-height: 1.6;
+    word-spacing: 0.2em;
+    letter-spacing: 0.05em;
+    color: rgb(251, 250, 245);
+    
+}
+
+.shahi,
+.grace,
+.chris {
+    width: 15vh;
+    border-radius: 50%;
+    padding: 20px 10px 20px 10px;
+    line-height: 1.6;
+    word-spacing: 0.2em;
+    letter-spacing: 0.05em;
+}
+
+
+

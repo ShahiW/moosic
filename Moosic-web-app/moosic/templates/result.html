@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}MOOSIC{% endblock %}
+
+{% block content %}
+
+<div class="choose-track-prompt">
+    <h2 id="prompt-results">Choose a track and enjoy!</h2>
+</div>
+
+
+{# Start Flexbox #}
+<div class="results">
+
+    {# Loop results #}
+    <div class="result-tracks">
+        {# Next Button #}
+        {% for track in results %}
+        <div class="result-bubbles">
+            {# activate the model with saved variables #}
+            <a class="button" href="https://open.spotify.com/track/{{ track['track_id'] }}">
+                <button>{{ track['artist_name'] }} - {{ track['track_name'] }}</button>
+            </a>
+        </div>
+        {% endfor %}
+
+    </div>
+
+    {# End Flexbox #}
+</div>
+
+
+{% endblock %}

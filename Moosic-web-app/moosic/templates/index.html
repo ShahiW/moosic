@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}MOOSIC{% endblock %}
+
+
+{# LANDING PAGE #}
+{% block content %}
+<div class="main-index-content">
+    {# LOGO #}
+    <div>
+        <img src="../static/images/Logo_grey_moosic.png" class="logo" alt="Moosic Logo by Martin Bauer">
+    </div>
+
+    {# SLOGAN #}
+    <div class="slogan">
+        <h2><strong>Your Mood.</strong></h2>
+        <h2><strong>Your Music.</strong></h2>
+    </div>
+
+    {# TRY ME BUTTON #}
+    <div class="try-me" style="text-align: center;">
+        <a class="button" href="{{url_for('MoosicViews.choose_genre_mood')}}">
+            <button>Try me!</button>
+        </a>
+    </div>
+</div>
+{% endblock %}
