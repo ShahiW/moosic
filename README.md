@@ -42,19 +42,6 @@ Please be aware that we have __two__ requirements.txt files! You will have to in
 git clone git@github.com:ShahiW/moosic.git
 ```
 
-### Install environment for Moosic-web-app:
-
-```bash
-cd moosic
-cd Moosic-web-app
-python3 -m venv .venv
-source .venv/bin/activate 
-pip install --upgrade pip 
-pip install -r requirements.txt 
-# Deactivate the venv when changing folders
-(deactivate)
-```
-
 ### Install environment for Model:
 
 ```bash
@@ -68,6 +55,18 @@ pip install -r requirements.txt
 (deactivate) 
 ```
 
+### Install environment for Moosic-web-app:
+
+```bash
+cd moosic
+cd Moosic-web-app
+python3 -m venv .venv
+source .venv/bin/activate 
+pip install --upgrade pip 
+pip install -r requirements.txt 
+# Deactivate the venv when changing folders
+(deactivate)
+```
 
 ## The team
 <img src="/Moosic-web-app/moosic/static/images/github-mark.png" alt="image" width="30" height="auto"> [Christian](https://github.com/ChrisHabe)
