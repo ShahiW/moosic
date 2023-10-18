@@ -12,16 +12,15 @@ The problem with music recommendations at present is that the recommended tracks
 <br>
 
 Curious about the final product? Click here: [MOOSIC](https://moosic.winderling.net)
+<br>
 
-Want to take a look at our cool Slides Presentation? Click here: [Capstone Endpresentation](https://docs.google.com/presentation/d/1Ka-l_OXa4FF1w02ZJ6dam3xc3z0_auSv6qDpuckh5uY/edit?usp=sharing)
 
-
-<div id="header" align="center">
- <img scr="https://github.com/ShahiW/moosic/tree/main/Moosic-web-app/moosic/static/images/moosic.png"> 
- </div>
+![moosic](/Moosic-web-app/moosic/static/images/moosic.png)
 
 
 <br>
+
+Want to take a look at our cool Slides Presentation? Click here: [Capstone Endpresentation](https://docs.google.com/presentation/d/1Ka-l_OXa4FF1w02ZJ6dam3xc3z0_auSv6qDpuckh5uY/edit?usp=sharing)
 
 
 
