@@ -17,8 +17,8 @@ Want to take a look at our cool Slides Presentation? Click here: [Capstone Endpr
 
 
 <div id="header" align="center">
-  <img src= 'https://media.giphy.com/media/xTk9ZwzuWiyJ8n5Vzq/giphy.gif'>
-</div>
+ <img scr="https://github.com/ShahiW/moosic/tree/main/Moosic-web-app/moosic/static/images/moosic.png"> 
+ </div>
 
 
 <br>
