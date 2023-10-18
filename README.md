@@ -34,15 +34,38 @@ Want to take a look at our cool Slides Presentation? Click here: [Capstone Endpr
 
 ## Installation
 
-Please be aware that we have __two__ requirements.txt files! You will have to install a venv for the Model folder and another for the Moosic-web-app folder. After cloning the repo go to the desired folder and then follow the steps below:
+Please be aware that we have __two__ requirements.txt files! You will have to install a venv for the Model folder and another for the Moosic-web-app folder. 
 
-__Install environment:__
+### Clone repo
 
 ```bash
-python -m venv .venv 
+git clone git@github.com:ShahiW/moosic.git
+```
+
+### Install environment for Moosic-web-app:
+
+```bash
+cd moosic
+cd Moosic-web-app
+python3 -m venv .venv
 source .venv/bin/activate 
 pip install --upgrade pip 
 pip install -r requirements.txt 
+# Deactivate the venv when changing folders
+(deactivate)
+```
+
+### Install environment for Model:
+
+```bash
+cd moosic
+cd Model
+python3 -m venv .venv
+source .venv/bin/activate 
+pip install --upgrade pip 
+pip install -r requirements.txt
+# Deactivate the venv when changing folders
+(deactivate) 
 ```
 
 
