@@ -1,9 +1,13 @@
 import pickle
 import numpy as np
+from pathlib import Path
 
+# get path for df2.bin
+dir = Path(__file__).parent.parent
+df2_bin = dir / "df2.bin"
 
 # dump dataframe here:
-with open('df2.bin', 'rb') as f:
+with df2_bin.open('rb') as f:
     df2 = pickle.load(f)
 
 
