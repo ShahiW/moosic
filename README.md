@@ -47,9 +47,9 @@ pip install -r requirements.txt
 
 
 ## The team
-<img src="../moosic/Moosic-web-app/moosic/static/images/github-mark.png" alt="image" width="30" height="auto"> [Christian](https://github.com/ChrisHabe)
+<img src="/Moosic-web-app/moosic/static/images/github-mark.png" alt="image" width="30" height="auto"> [Christian](https://github.com/ChrisHabe)
 
-<img src="../moosic/Moosic-web-app/moosic/static/images/github-mark.png" alt="image" width="30" height="auto">  [Grace](https://github.com/ghraciella)
+<img src="/Moosic-web-app/moosic/static/images/github-mark.png" alt="image" width="30" height="auto">  [Grace](https://github.com/ghraciella)
 
-<img src="../moosic/Moosic-web-app/moosic/static/images/github-mark.png" alt="image" width="30" height="auto"> [Shahi](https://github.com/ShahiW)
+<img src="/Moosic-web-app/moosic/static/images/github-mark.png" alt="image" width="30" height="auto"> [Shahi](https://github.com/ShahiW)
 
