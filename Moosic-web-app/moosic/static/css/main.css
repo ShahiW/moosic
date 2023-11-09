@@ -238,7 +238,8 @@ button:hover {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 20px 250px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .main-content-project > h1 {
@@ -246,67 +247,114 @@ button:hover {
     line-height: 1.6;
     word-spacing: 0.1em;
     letter-spacing: 0.05em;
-    color: rgb(251, 250, 245);
+    color: rgb(218, 218, 218);
 }
 
 .intro {
     min-height: 20%;
-    margin: 25px 0px 15px 0px;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 300px 0px 300px;
     font-size: 2.2vh;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1.6;
     word-spacing: 0.2em;
     letter-spacing: 0.05em;
-    color: rgb(251, 250, 245);
+    color: rgb(218, 218, 218);
 }
 
 .project-description {
     min-height: 50%;
-    margin: 25px 0px 15px 0px;
-    padding: 0px 100px 100px 100px;
+    margin: 25px 0px 65px 0px;
+    padding: 0px 300px 50px 300px;
     font-size: 2.2vh;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1.6;
     word-spacing: 0.2em;
     letter-spacing: 0.05em;
-    color: rgb(251, 250, 245);
+    color: rgb(218, 218, 218);
 }
 
 .team {
-    min-height: 30%;
+    min-height: 20%;
     display: flex;
     flex-direction: row;
-    margin: 25px 0px 15px 0px;
-    padding: 0px 100px 0px 100px;
+
+    margin: 25px 0px 65px 0px;
+    padding: 50px 300px 0px 300px;
+
     font-size: 2.2vh;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1.6;
     word-spacing: 0.2em;
     letter-spacing: 0.05em;
-    color: rgb(251, 250, 245);
-    
+    color: rgb(218, 218, 218); 
+}
+
+
+p {
+    margin-bottom: 4rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
 }
 
 
 .column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 33.3%;
-    padding: 5px;
+    min-height: 18%;
+    color: rgba(0, 0, 0, 0.2);
+    float: left;
+    width: 40%;
+    margin-bottom: 16px;
+    padding: 0 20px;
 }
+
+
+.card {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.8);
+    padding: 0 25px 0 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.container {
+    padding: 0 16px;
+    color: rgb(218, 218, 218);
+    font-size: normal;
+}
+
+
+.container > p {
+    padding: 25px 25px 25px 0;
+}
+
+
+.column > p {
+    padding: 5px 25px;
+}
+
 
 .shahi,
 .grace,
 .chris {
-    width: 20vh;
+    width: 30%;
+    height: auto;
     border-radius: 50%;
     padding: 20px 10px 20px 10px;
     line-height: 1.6;
     word-spacing: 0.2em;
     letter-spacing: 0.05em;
 }
+
+
+.small, small {
+    font-size: 65%;
+    font-weight: normal;
+    line-height: 1.6;
+    word-spacing: 0.2em;
+    letter-spacing: 0.05em;
+    color: rgb(251, 250, 245);
+}
+
 
 .text {
     padding: 10px 110px 10px 110px;
