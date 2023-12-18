@@ -1,3 +1,4 @@
 numpy==1.24.2
 Flask-AppBuilder==4.3.6
-Werkzeug==2.3.7  
+Werkzeug==2.3.7 
+pandas==2.0.2
